@@ -15,4 +15,4 @@ runcmd:
 
   - curl -sSL https://get.docker.com/ | sh
   - usermod -aG docker chengzh
-  - docker run -d --restart=always --name rancher -p 80:80 -p 443:443 -v /opt/rancher:/var/lib/rancher rancher/rancher:lates
+  - docker run -d --restart=always --name rancher -p 80:80 -p 443:443 -v /opt/rancher:/var/lib/rancher rancher/rancher:latest
